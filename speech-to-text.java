@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }else
             Toast.makeText(this, "Voice N/A", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Khó hiểu", Toast.LENGTH_SHORT).show();
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
 }
